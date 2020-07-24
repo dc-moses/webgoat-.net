@@ -34,7 +34,7 @@ steps:
 
 - task: FortifyOnDemandStatic@6
   inputs:
-    FortifyProjects: '$/WebGoat .net'
+    FortifyProjects: '$(build.artifactStagingDirectory)\WebApp.zip'
     ReleaseId: 257478
     FodConnection: 'Fortify (DylanM_Demo)'
     EntitlementPreference: '1'
