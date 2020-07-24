@@ -34,7 +34,7 @@ steps:
 
 - task: FortifyOnDemandStatic@6
   inputs:
-    FortifyProjects: 'C:\Users\Dylan\Desktop\Test Uploads\webgoat-.net-master.zip'
+    FortifyProjects: '$/WebGoat .net'
     ReleaseId: 257478
     FodConnection: 'Fortify (DylanM_Demo)'
     EntitlementPreference: '1'
